@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8f9d7a;
+
+}
+
+main {
+    overflow: hidden;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    color: #edf5e2;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Patua One';
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Patua One';
+}
+
+h4 {
+    font-size: 22px;
+    font-family: 'Maven Pro';
+}
+
+h5 {
+    font-size: 16px;
+    font-family: 'Maven Pro';
+}
+
+.nav {
+    height: 69px;
+    border-bottom: 1px solid #717c60;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #5b634d;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 6;
+}
+
+.comp_logo {
+    color: #edf5e2;
+    height: 50px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    list-style: none;
+
+}
+
+.nav_link {
+    color: #edf5e2;
+    font-size: 20px;
+    font-family: 'Maven Pro';
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.nav_link:hover {
+    color: #8f9d7a;
+}
+
+
+.text_content {
+    background-image: url('img/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+
+.text_wrapper {
+    background-color: #eddcb7d0;
+    height: 720px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission_title,
+.mission_subtitle {
+    color: #5b634d;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.mission_title {
+    text-transform: uppercase;
+}
+
+#Featured {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.tea_img {
+    height: 250px;
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 10px;
+}
+
+figcaption {
+    color: #edf5e2;
+    font-size: 20px;
+    font-family: 'Patua One';
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+.teas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.featured_title,
+.featured_subtitle {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#locations {
+    background-image: url('img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-size: cover;
+    max-height: 1200px;
+    overflow: hidden;
+    margin-top: 100px;
+
+}
+
+.locations_wrapper {
+    background-color: #eddcb7d0;
+    max-height: 1200px;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.locations {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.location_item {
+    flex-basis: 300px;
+    background-color: #5b634df1;
+    border-radius: 10px;
+   height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    color: #edf5e2;
+    font-size: 18px;
+    font-family: 'Maven Pro'
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Maven Pro'
+}
+
+footer {
+    height: 20px;
+    margin: 0 auto;
+    font-family: 'Maven Pro';
+    background-color: #5b634d;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.contact_link {
+    color: #edf5e2;
+    text-decoration: none;
+}
+
+.contact_link:hover {
+    color: #5b644e;
+}
